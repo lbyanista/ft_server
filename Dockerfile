@@ -1,6 +1,6 @@
 FROM debian:buster
-EXPOSE 80
+EXPOSE 80 443
 MAINTAINER mlabrayj
 COPY srcs /
-RUN bash script.sh
+RUN bash ./script.sh
 CMD bash ./scriptrun.sh
