@@ -16,7 +16,7 @@ unzip *.zip
 rm -rf *.zip
 service php7.3-fpm start
 service nginx start
-echo "daemon off;" >> /etc/nginx/nginx.conf
+#echo "daemon off;" >> /etc/nginx/nginx.conf
 
 
 cp /config.inc.php /var/www/html/phpmyadmin/
